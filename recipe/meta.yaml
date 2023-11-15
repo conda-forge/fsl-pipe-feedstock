@@ -1,5 +1,5 @@
 {% set name = "fsl-pipe" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fsl-pipe-{{ version }}.tar.gz
-  sha256: 8bc3d3e00747bb2e4b2ffcb6c3bf5fff2f9f812c956c5586d79d1104403b43bc
+  sha256: a1382e9a87c0304791dfb8d4e86ad8d538ddcd72d93f47838f02a13f5f4feef0
 
 build:
   noarch: python
