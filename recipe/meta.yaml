@@ -1,5 +1,5 @@
 {% set name = "fsl-pipe" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fsl-pipe-{{ version }}.tar.gz
-  sha256: a1382e9a87c0304791dfb8d4e86ad8d538ddcd72d93f47838f02a13f5f4feef0
+  sha256: 9979ea0cb35f33ca063d1e59de279e67d7bb27775e3109c19d2f16d6fcc416e6
 
 build:
   noarch: python
@@ -39,8 +39,8 @@ test:
     - pip
 
 about:
-  home: https://git.fmrib.ox.ac.uk/ndcn0236/fsl-pipe
-  summary: Declative pipelines based on Filetrees
+  home: https://git.fmrib.ox.ac.uk/fsl/fsl-pipe
+  summary: Declarative pipelines based on Filetrees
   license: MIT
   license_file: LICENSE
 
