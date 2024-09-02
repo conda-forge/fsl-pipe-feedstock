@@ -3,11 +3,11 @@ About fsl-pipe-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fsl-pipe-feedstock/blob/main/LICENSE.txt)
 
-Home: https://git.fmrib.ox.ac.uk/ndcn0236/fsl-pipe
+Home: https://git.fmrib.ox.ac.uk/fsl/fsl-pipe
 
 Package license: MIT
 
-Summary: Declative pipelines based on Filetrees
+Summary: Declarative pipelines based on Filetrees
 
 Current build status
 ====================
