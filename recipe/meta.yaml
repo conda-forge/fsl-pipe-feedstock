@@ -28,6 +28,7 @@ requirements:
     - loguru
     - fsl-sub
     - python-graphviz
+    - wcmatch
 
 test:
   imports:
